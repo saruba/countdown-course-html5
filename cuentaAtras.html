@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<script type="text/javascript" src="cuentaATras.js"></script>
+		<link rel="stylesheet" type="text/css" href="cuentaAtras.css">
+		<meta charset="utf-8"/>
+		<title>Cuenta Atras</title>
+	</head>
+	<body onload="cuentaAtrasIntervalo()">
+		<div id="divCuerpo">
+			<div id="divCabecera">
+				<h1 id="h1Cabecera">Loading <span id="spanLoading"></span></h1>
+			</div>
+			<div id="divLogo">
+				<a href="http://cursohtml5js.com/">
+					<img id="imgLogo" src="img/logo.png">
+				</a>
+			</div>
+			<div id="divCuentaAtras" onClick='cambioContador()'></div>	
+			<div id="divBocadillo" onClick='cambioContador()'><img src="img/0.png"></div>
+			<div id="divPie">
+				Salvador Marí Alarcón
+			</div>
+		</div>
+	</body>
+</html>

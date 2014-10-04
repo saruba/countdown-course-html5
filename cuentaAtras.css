@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'NeoRetroDrawRegular';
+    src: url('fonts/NEORD.eot');
+    src: url('fonts/NEORD.eot?#iefix') format('embedded-opentype'),
+         url('fonts/NEORD.woff') format('woff'),
+         url('fonts/NEORD.ttf') format('truetype'),
+         url('fonts/NEORD.svg#NeoRetroDrawRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	font-family : Arial, Sans-serif;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+#divCuerpo{
+	text-align: center;
+	width: 80%;
+	height: 80%;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	padding: 10px;
+}
+
+#divCuentaAtras{
+	margin-top: 10px;
+	position: relative;
+	font-size: 40px;
+	z-index: 1;
+}
+
+.pSubTitulo{
+	font-size: 10px;
+	display: block;
+	margin: 0px;
+}
+
+.divNumeros{
+	position: relative;
+	text-align: right;
+	display: inline-block;
+	margin: 10px;
+	z-index: -1;
+}
+
+.divNumero{
+	position: relative;
+	font-family: 'NeoRetroDrawRegular';
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	color: white;
+	background-color: black;
+	margin: 2px;
+	padding: 5px;
+	z-index: -1;
+}
+
+#divPie{
+	width: 80%;
+	position: fixed;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	bottom: 20px;
+	z-index: -1;
+}
